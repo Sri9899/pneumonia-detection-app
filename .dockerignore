@@ -1,0 +1,17 @@
+
+stage_2_train_images/
+stage_2_test_images/
+stage_2_train_images.zip
+stage_2_test_images.zip
+*.dcm
+*.ipynb
+*.html
+__MACOSX/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+best_baseline_cnn.keras
+best_mobilenetv2_basic.keras
+best_efficientnetb0_basic.keras
+best_mobilenetv2_enhanced.keras
+best_efficientnetb0_enhanced.keras
