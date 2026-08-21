@@ -24,13 +24,4 @@ COPY pneumonia_best_model.keras .
 # Streamlit port
 EXPOSE 8501
 
-CMD [
-    "python",
-    "-m",
-    "streamlit",
-    "run",
-    "app.py",
-    "--server.address=0.0.0.0",
-    "--server.port=8501",
-    "--server.headless=true"
-]
+CMD ["python", "-m", "streamlit", "run", "app.py", "--server.address=0.0.0.0", "--server.port=8501", "--server.headless=true"]
